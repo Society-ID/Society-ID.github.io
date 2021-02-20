@@ -16,15 +16,10 @@
     <link href="vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="vendors/fullpage/css/fullpage.min.css" rel="stylesheet" type="text/css"/>
     <link href="app.css" rel="stylesheet" type="text/css"/>
-    <link href="loader.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
 <div class="container-fluid">
-    <div class="loader-container">
-        <div class="loader"></div>
-    </div>
-
     <div id="fullpage">
         <!-- Section 0 -->
         <div class="section" id="section0">
@@ -125,7 +120,19 @@
 
                         <div class="col-md-6 pr-2">
                             <div class="row mb-3">
-                                <span style="font-size: 1.8em;">design</span>
+                                <a class="text-decoration-none" data-toggle="collapse" href="#collapseDesign"
+                                   role="button" aria-expanded="false"
+                                   aria-controls="collapseDesign">
+                                    <span style="font-size: 1.8em;">design</span>
+                                </a>
+
+                                <div class="collapse" id="collapseDesign">
+                                    <div class="mt-2">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes
+                                        anderson cred nesciunt sapiente ea proident.
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="row mt-3">
