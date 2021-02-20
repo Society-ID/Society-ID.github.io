@@ -1,10 +1,13 @@
 $(document).ready(function () {
-    $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function () {
-        $(this).toggleClass('open');
-    });
+    $('.loader-container').show()
+    $('#fullpage').hide()
 
-    $('#fullpage').fullpage({
-        navigation: true,
-        navigationPosition: 'left',
+    $(window).on('load', function() {
+        $('.loader-container').fadeOut(1000)
+
+        $('#fullpage').delay(1000).fadeIn(1000).fullpage({
+            navigation: true,
+            navigationPosition: 'left',
+        })
     })
 })

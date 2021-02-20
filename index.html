@@ -16,25 +16,20 @@
     <link href="vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="vendors/fullpage/css/fullpage.min.css" rel="stylesheet" type="text/css"/>
     <link href="app.css" rel="stylesheet" type="text/css"/>
+    <link href="loader.css" rel="stylesheet" type="text/css"/>
 </head>
+
 <body>
 <div class="container-fluid">
-    <div class="mr-2" style="position: fixed;z-index:99; top: 0; left: 0; border: 0;">
-        <div id="nav-icon2" class="m-4">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+    <div class="loader-container">
+        <div class="loader"></div>
     </div>
 
     <div id="fullpage">
         <!-- Section 0 -->
         <div class="section" id="section0">
             <div class="d-flex justify-content-center">
-                <img alt="Society" src="assets/images/society.png" style="height: 320px;">
+                <img id="society-logo" src="assets/images/society.png" alt="Society logo">
             </div>
         </div>
 
@@ -42,19 +37,19 @@
         <div class="section" id="section1">
             <div class="container">
                 <div class="d-block d-md-none">
-                    <div class="text-center">
+                    <div class="content-container text-center">
                         <div class="society-lg">
                             Society
                         </div>
 
                         <div style="font-size: 1.15em;">
-                            is a mobile app and web developer <br> in Indonesia
+                            is a mobile app and web developer in Indonesia
                         </div>
                     </div>
                 </div>
 
                 <div class="d-none d-md-block">
-                    <div class="row align-items-center">
+                    <div class="row content-container align-items-center">
                         <div class="society-lg col-md-6">
                             <div class="d-flex justify-content-end">
                                 Society
@@ -72,9 +67,9 @@
         <!-- Section 2 -->
         <div class="section" id="section2">
             <div class="d-block d-lg-none">
-                <div class="text-center m-4 p-2">
+                <div class="content-container text-center m-4 p-2">
                     <div class="more-than-just-an-application">
-                        More than just <br/> an Application
+                        More than just an Application
                     </div>
 
                     <div style="font-size: 1.15em;">
@@ -85,18 +80,15 @@
             </div>
 
             <div class="d-none d-lg-block">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="more-than-just-an-application">
-                                More than just <br> an Application
-                            </div>
+                <div class="row content-container">
+                    <div class="col-md-6" style="padding-left: 54px;">
+                        <div class="more-than-just-an-application">
+                            More than just <br> an Application
+                        </div>
 
-                            <div style="font-size: 1.35em;">
-                                We want to help you transform your <br> idea and make it ready to be part of the <br>
-                                <span
-                                        class="font-weight-bold">society</span>
-                            </div>
+                        <div style="font-size: 1.35em;">
+                            We want to help you transform your <br> idea and make it ready to be part of the <br>
+                            <span class="font-weight-bold">society</span>
                         </div>
                     </div>
                 </div>
