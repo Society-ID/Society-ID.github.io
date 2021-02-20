@@ -44,6 +44,30 @@ html, body {
     height: 28vh;
 }
 
+.arrow-button {
+    width: 54px;
+    height: 54px;
+}
+
+.arrow-button-sm {
+    width: 32px;
+    height: 32px;
+}
+
+.arrow-button.open {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.arrow-button-sm.open {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
 .content-container {
     padding: 12px;
 }
